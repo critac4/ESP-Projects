@@ -1,35 +1,12 @@
-| Supported Targets | ESP32 | ESP32-C2 | ESP32-C3 | ESP32-C6 | ESP32-H2 | ESP32-P4 | ESP32-S2 | ESP32-S3 |
-| ----------------- | ----- | -------- | -------- | -------- | -------- | -------- | -------- | -------- |
-
-# _Sample project_
-
-(See the README.md file in the upper level 'examples' directory for more information about examples.)
-
-This is the simplest buildable example. The example is used by command `idf.py create-project`
-that copies the project to user specified path and set it's name. For more information follow the [docs page](https://docs.espressif.com/projects/esp-idf/en/latest/api-guides/build-system.html#start-a-new-project)
+This project blinks the onboard LED of the NodeMCU ESP32WROOM32, sold by AZ-Delivery. (Can find relevant docs on their website).
 
 
+main/main.c is where your code lives, everything else is for esp-idf compile and built pipeline.
 
-## How to use example
-We encourage the users to use the example as a template for the new projects.
-A recommended way is to follow the instructions on a [docs page](https://docs.espressif.com/projects/esp-idf/en/latest/api-guides/build-system.html#start-a-new-project).
+In this particular model, the onboard LED is connected to the U0TXD pin by default, which is activated whenever anything is being transmitted, over microusb. Hence the LED lights up whenever anything is being transmitted over the USB. 
+The U0TXD corresponds to the GPIO #1 pin, and can perform multiple fucntions, out of which GPIO1 is set as fucntion 2. To set this pin as GPIO1, refer to the section 6.10 in the technical reference manual. 
+The function of the U0TXD can be changed by using the IO_MUX_U0TXD_REG register at 0x3ff49088. Refer to the esp32 technical reference document as to why the bit 13 is being set as 1
 
-## Example folder contents
+To use GPIO, first enable GPIO register, then we write into the GPIO register.
 
-The project **sample_project** contains one source file in C language [main.c](main/main.c). The file is located in folder [main](main).
-
-ESP-IDF projects are built using CMake. The project build configuration is contained in `CMakeLists.txt`
-files that provide set of directives and instructions describing the project's source files and targets
-(executable, library, or both). 
-
-Below is short explanation of remaining files in the project folder.
-
-```
-├── CMakeLists.txt
-├── main
-│   ├── CMakeLists.txt
-│   └── main.c
-└── README.md                  This is the file you are currently reading
-```
-Additionally, the sample project contains Makefile and component.mk files, used for the legacy Make based build system. 
-They are not used or needed when building with CMake and idf.py.
+The delay is set using the vTaskDelay(__ticks__) function part of the FreeRTOS running on the esp32 MCU.
