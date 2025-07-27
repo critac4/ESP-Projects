@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+/mnt/evenmorestuff/naukri_hustle/programming/esp_32/esp/blinkman/build/CMakeFiles/bootloader
+/mnt/evenmorestuff/naukri_hustle/programming/esp_32/esp/blinkman/build/CMakeFiles/bootloader.rule
+/mnt/evenmorestuff/naukri_hustle/programming/esp_32/esp/blinkman/build/CMakeFiles/bootloader-complete.rule
+/mnt/evenmorestuff/naukri_hustle/programming/esp_32/esp/blinkman/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+/mnt/evenmorestuff/naukri_hustle/programming/esp_32/esp/blinkman/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+/mnt/evenmorestuff/naukri_hustle/programming/esp_32/esp/blinkman/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+/mnt/evenmorestuff/naukri_hustle/programming/esp_32/esp/blinkman/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+/mnt/evenmorestuff/naukri_hustle/programming/esp_32/esp/blinkman/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+/mnt/evenmorestuff/naukri_hustle/programming/esp_32/esp/blinkman/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+/mnt/evenmorestuff/naukri_hustle/programming/esp_32/esp/blinkman/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule

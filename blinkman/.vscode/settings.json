@@ -1,0 +1,20 @@
+{
+  "C_Cpp.intelliSenseEngine": "default",
+  "idf.espIdfPath": "/mnt/evenmorestuff/naukri_hustle/programming/esp_32/esp-idf",
+  "idf.pythonInstallPath": "/mnt/evenmorestuff/naukri_hustle/programming/esp_32/esp_idf/python_env/idf5.2_py3.13_env/bin/python",
+  "idf.openOcdConfigs": [
+    "board/esp32-wrover-kit-3.3v.cfg"
+  ],
+  "idf.port": "/dev/ttyUSB0",
+  "idf.toolsPath": "/mnt/evenmorestuff/naukri_hustle/programming/esp_32/esp_idf",
+  "idf.customExtraVars": {
+    "IDF_TARGET": "esp32"
+  },
+  "idf.flashType": "UART",
+  "files.associations": {
+    "freertos.h": "c",
+    "task.h": "c",
+    "sdkconfig.h": "c",
+    "esp_macros.h": "c"
+  }
+}

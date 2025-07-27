@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/mnt/evenmorestuff/naukri_hustle/programming/esp_32/esp/blinkman/build/CMakeFiles/bootloader"
+		},
+		{
+			"file" : "/mnt/evenmorestuff/naukri_hustle/programming/esp_32/esp/blinkman/build/CMakeFiles/bootloader.rule"
+		},
+		{
+			"file" : "/mnt/evenmorestuff/naukri_hustle/programming/esp_32/esp/blinkman/build/CMakeFiles/bootloader-complete.rule"
+		},
+		{
+			"file" : "/mnt/evenmorestuff/naukri_hustle/programming/esp_32/esp/blinkman/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule"
+		},
+		{
+			"file" : "/mnt/evenmorestuff/naukri_hustle/programming/esp_32/esp/blinkman/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule"
+		},
+		{
+			"file" : "/mnt/evenmorestuff/naukri_hustle/programming/esp_32/esp/blinkman/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule"
+		},
+		{
+			"file" : "/mnt/evenmorestuff/naukri_hustle/programming/esp_32/esp/blinkman/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule"
+		},
+		{
+			"file" : "/mnt/evenmorestuff/naukri_hustle/programming/esp_32/esp/blinkman/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule"
+		},
+		{
+			"file" : "/mnt/evenmorestuff/naukri_hustle/programming/esp_32/esp/blinkman/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule"
+		},
+		{
+			"file" : "/mnt/evenmorestuff/naukri_hustle/programming/esp_32/esp/blinkman/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"bootloader"
+		],
+		"name" : "bootloader"
+	}
+}
