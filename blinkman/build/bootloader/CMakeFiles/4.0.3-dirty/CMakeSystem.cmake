@@ -1,6 +1,6 @@
-set(CMAKE_HOST_SYSTEM "Linux-6.15.7-arch1-1")
+set(CMAKE_HOST_SYSTEM "Linux-6.15.8-arch1-1")
 set(CMAKE_HOST_SYSTEM_NAME "Linux")
-set(CMAKE_HOST_SYSTEM_VERSION "6.15.7-arch1-1")
+set(CMAKE_HOST_SYSTEM_VERSION "6.15.8-arch1-1")
 set(CMAKE_HOST_SYSTEM_PROCESSOR "x86_64")
 
 include("/mnt/evenmorestuff/naukri_hustle/programming/esp_32/esp-idf/tools/cmake/toolchain-esp32.cmake")
